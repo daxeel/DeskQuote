@@ -22,10 +22,12 @@ base_url = "http://www.brainyquote.com/quotes/topics/topic_"
 # Categories
 categories = {
 	1: ['inspirational', 13],
+	2: ['motivational', 8]
+	3: ['success', 38]
 }
 
 def make_quote():
-	select_category = randint(1, 1)
+	select_category = randint(1, 3)
 	select_page = randint(1, categories[select_category][1])
 	select_quote = randint(0, 25)
 
