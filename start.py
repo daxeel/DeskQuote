@@ -22,7 +22,7 @@ base_url = "http://www.brainyquote.com/quotes/topics/topic_"
 # Categories
 categories = {
 	1: ['inspirational', 13],
-	2: ['motivational', 8]
+	2: ['motivational', 8],
 	3: ['success', 38]
 }
 
